@@ -4,7 +4,7 @@ Code for the paper "Session Recommendation via Recurrent Neural Networks over Fi
 
 ## Information
 
-The code contained in the root folder is the code used to run session-based recommendation experiments for the paper. The folder "gru4rec" contains modified code based on the original Gru4Rec code (https://github.com/hidasib/GRU4Rec), with the modifications:
+The code contained in the root folder is the code used to run session-based recommendation experiments for the paper. The folder "gru4rec" contains modified code based on the original Gru4Rec code (https://github.com/hidasib/GRU4Rec). For licensing information refer to the original repository. Modifications:
 - The `GRU4Rec` class has two additional initialization parameters: `preset_embeddings` and `embedding_transform_matrix`. These implement the modifications described in the paper.
 - The `fit` method has an additional parameter, `reset=True`, which controls whether the fit continues to incrementally train the model or starts from scratch.
 
